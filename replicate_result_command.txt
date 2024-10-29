@@ -1,8 +1,0 @@
-For CIFAR-10 :
-CUDA_VISIBLE_DEVICES=0 nohup python general_main.py --loss rfocal --classify max --data cifar10 --rfl_miu 0.3 --rfl_alpha 0.25 --rfl_sigma 0.5 --eps_mem_batch 100 --mem_size 1000 --review_trick True --kd_trick True --kd_lamda 0.1 --kd_type vkd --cor_prob 0.99 --T 20.0 --fix_order True > nohup2.log 2>&1 &
-
-For CIFAR-100 :
-CUDA_VISIBLE_DEVICES=0 nohup python general_main.py --loss rfocal --classify max --data cifar100 --rfl_miu 0.3 --rfl_alpha 0.25 --rfl_sigma 0.5 --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.1 --kd_type vkd --cor_prob 0.99 --T 20.0 --fix_order True > nohup2.log 2>&1 &
-
-For Mini-ImageNet :
-CUDA_VISIBLE_DEVICES=0 nohup python general_main.py --loss rfocal --classify max --data mini_imagenet --rfl_miu 0.3 --rfl_alpha 0.25 --rfl_sigma 0.5 --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.01 --kd_type vkd --cor_prob 0.99 --T 20.0 --fix_order True > nohup2.log 2>&1 &
