@@ -1,0 +1,6 @@
+kornia==0.6.8
+matplotlib==3.6.2
+numpy==1.23.5
+scipy==1.9.3
+torch==1.13.0
+torchvision==0.14.0

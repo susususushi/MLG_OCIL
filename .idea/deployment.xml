@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="PublishConfigData" autoUpload="Always" serverName="ssb@10.68.44.250:10181 password (8)" remoteFilesAllowedToDisappearOnAutoupload="false">
+=======
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+>>>>>>> 3d12933 (first commit)
     <serverData>
       <paths name="ssb@10.68.44.250:10165 password">
         <serverdata>
@@ -65,6 +69,7 @@
           </mappings>
         </serverdata>
       </paths>
+<<<<<<< HEAD
       <paths name="ssb@10.68.44.250:10181 password (10)">
         <serverdata>
           <mappings>
@@ -121,6 +126,8 @@
           </mappings>
         </serverdata>
       </paths>
+=======
+>>>>>>> 3d12933 (first commit)
       <paths name="ssb@10.68.44.250:10181 password (2)">
         <serverdata>
           <mappings>
@@ -156,6 +163,7 @@
           </mappings>
         </serverdata>
       </paths>
+<<<<<<< HEAD
       <paths name="ssb@10.68.44.250:10181 password (7)">
         <serverdata>
           <mappings>
@@ -179,5 +187,8 @@
       </paths>
     </serverData>
     <option name="myAutoUpload" value="ALWAYS" />
+=======
+    </serverData>
+>>>>>>> 3d12933 (first commit)
   </component>
 </project>
